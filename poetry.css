@@ -1,0 +1,111 @@
+body{
+    background-color: aquamarine;
+}
+
+
+.navbar{
+    background-color: rgb(22, 66, 2);
+}
+
+.container-fluid{
+    background-color: blanchedalmond;
+}
+
+.navbar-toggler{
+    background-color: blue;
+}
+
+.img-fluid {
+    max-width: 50%;
+    min-height: auto;
+}
+
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+
+}
+
+.card-body {
+    background-color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 205, 33);
+    padding: 15px;
+}
+
+.navbar {
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.grid-container{
+    display: grid;
+    background-color:paleturquoise;
+    
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    
+    padding: 10px;
+}
+.grid-item{
+    background-color: royalblue;
+    text-align: center;
+    padding: 10px;
+}
+#item1{
+    grid-row:6/7 ;
+}
+#item2{
+    grid-row:2/2 ;
+     
+}
+.grid-container2{
+    display: grid;
+    background-color: blue;
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    padding: 10px;
+
+}
+.grid-item2{
+    background-color: brown;
+    text-align: center;
+    padding: 10px;
+}
+#FirstName{
+    grid-column: 1/2;
+}
+#MiddleName{
+    grid-column: 2/4;
+}
+#LastName{
+    grid-column: 4/6;
+}
+#Phone{
+    grid-column: 1/3;
+}
+#Email{
+    grid-column: 3/6;
+}
+#Age{
+    grid-column:1/2;
+}
+#Gender{
+    grid-column:2/4 ;
+}
+#Nationalty{
+    grid-column: 4/6;
+}
+button{
+    background-color:palevioletred;
+    border-radius: 20px;
+    align-items: center;
+}
+
