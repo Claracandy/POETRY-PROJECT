@@ -1,7 +1,7 @@
- 
- alert()
- 
-        
+
+alert()
+
+
 let Applications = document.getElementById("Applications");
 
 Applications.addEventListener("submit", (e) => {
@@ -16,7 +16,7 @@ Applications.addEventListener("submit", (e) => {
 
     if (Firstname.value == "" || Secondname.value == "" || phone.value == "" || email.value == ""
         || Age.value == "" || Nationality.value == "") {
-        alert("Ensure you input a value in both fields!");
+        alert("Ensure you input a value in all fields!");
     } else {
 
         alert("This form has been successfully submitted!");
@@ -24,18 +24,18 @@ Applications.addEventListener("submit", (e) => {
             `This form has a Firstname of ${Firstname.value} and Secondname of ${Secondname.value} and Phone of ${Phone.value}  and Age of ${Age.value} and Email of ${Email.value} and Nationality of ${Nationality.value}`
         );
 
-        
+
     }
-    object.onsubmit = function(){myScript};
+    object.onsubmit = function () { myScript };
     function validateForm() {
         var x = document.forms["myForm"]["fname"].value;
         if (x == "") {
-          alert("Name must be filled out");
-          return false;
+            alert("Name must be filled out");
+            return false;
         }
-      } 
+    }
 
- console.log("Applications")
+    console.log("Applications")
 
 });
 
