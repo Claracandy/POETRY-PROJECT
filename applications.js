@@ -1,17 +1,6 @@
  
- alert('')
- function CheckAge(age){
-    if (age <= 12){
-        console.log("too young to apply")
-    } else if (age <= 18){
-        console.log("successfully applied")
-    } else if (age <=60){
-        console.log("too old to apply")
-    } else {
-        console.log("for advanced level")
-    }
-        }
-        CheckAge(20)
+ alert()
+ 
         
 let Applications = document.getElementById("Applications");
 
@@ -37,7 +26,15 @@ Applications.addEventListener("submit", (e) => {
 
         
     }
-   
+    object.onsubmit = function(){myScript};
+    function validateForm() {
+        var x = document.forms["myForm"]["fname"].value;
+        if (x == "") {
+          alert("Name must be filled out");
+          return false;
+        }
+      } 
+
  console.log("Applications")
 
 });

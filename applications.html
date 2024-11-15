@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="poetry.css">
 </head>
 <body>
-    <form action="" id="Apllications"  <a href="applications.html"></a> 
+    <form name="myForm" action="welcom.html" onsubmit="return validateForm()" method="post" required>
+        Name: <input type="text" name="fname"> <a href="applications.html"></a> 
         <h1>Application</h1>
         
         <div class="grid-container2">                     
@@ -20,6 +21,7 @@
           <div class="grid-item2" id="Nationality"><input type="text" id="Nationality" class="form-control" placeholder=" Nationality..."></div>
         <button type="submit">submit</button>
       </div>
+      <element onsubmit="myScript"> 
     </form>  
     <script src="poetry.js"></script>
     <script src="applications.js"></script> 
